@@ -26,7 +26,6 @@
 <file name="haikeishiro.png" server="edu.fca.ac.jp" local="132569048140000000" remote="132570686400000000" Dst="0" />
 <file name="poster-1.png" server="edu.fca.ac.jp" local="132564015460000000" remote="132570686400000000" Dst="0" />
 <file name="prof.png" server="edu.fca.ac.jp" local="132564948280000000" remote="132570686400000000" Dst="0" />
-<file name="top.png" server="edu.fca.ac.jp" local="132567424820000000" remote="132570686400000000" Dst="0" />
 <file name="twitter.png" server="edu.fca.ac.jp" local="132570920420000000" remote="132570923400000000" Dst="0" />
 <file name="works.png" server="edu.fca.ac.jp" local="132567327280000000" remote="132570686400000000" Dst="0" />
 <file name="works2.png" server="edu.fca.ac.jp" local="132570672480000000" remote="132570686400000000" Dst="0" />
@@ -41,10 +40,11 @@
 <file name="제목 없음-3.psd" server="edu.fca.ac.jp" local="132570974360000000" remote="132570978600000000" Dst="0" />
 <file name="FOT-BlueYonder.otf" server="edu.fca.ac.jp" local="130285260000000000" remote="132572662800000000" Dst="0" />
 <file name="favicon.ico" server="edu.fca.ac.jp" local="132571615280000000" remote="132572662800000000" Dst="0" />
-<file name="haikeismartphone.png" server="edu.fca.ac.jp" local="132574425560000000" remote="132574427400000000" Dst="0" />
-<file name="haikeitablet.png" server="edu.fca.ac.jp" local="132574402220000000" remote="132574426800000000" Dst="0" />
-<file name="footertablet.png" server="edu.fca.ac.jp" local="132574410200000000" remote="132574427400000000" Dst="0" />
+<file name="haikeismartphone.png" server="edu.fca.ac.jp" local="132574425560000000" remote="132574459200000000" Dst="0" />
+<file name="haikeitablet.png" server="edu.fca.ac.jp" local="132574402220000000" remote="132574459200000000" Dst="0" />
+<file name="footertablet.png" server="edu.fca.ac.jp" local="132574410200000000" remote="132574459200000000" Dst="0" />
 <file name="footersmartphone.png" server="edu.fca.ac.jp" local="132572706260000000" remote="132572712000000000" Dst="0" />
-<file name="smaho.png" server="edu.fca.ac.jp" local="132573231443000000" remote="132574332600000000" Dst="0" />
+<file name="smaho.png" server="edu.fca.ac.jp" local="132573231460000000" remote="132574459200000000" Dst="0" />
 <file name="backgroundsmaho.png" server="edu.fca.ac.jp" local="132574420320000000" remote="132574427400000000" Dst="0" />
+<file name="toptop.png" server="edu.fca.ac.jp" local="132567424820000000" remote="132574459200000000" Dst="0" />
 </dwsync>

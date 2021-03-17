@@ -9,10 +9,6 @@ height: 100%;
 width: 100%;
 position: relative;
 z-index: 10;
-background-image:url("../images/haikeiao.png");
-background-repeat:no-repeat;
-background-size:cover;
-z-index:10;
 }
 
 .index-img{
@@ -23,19 +19,18 @@ position: absolute;
 z-index: 5;
 }
 
-
-
 .index {
-height: 100vh;
-margin-bottom:350px
+height: calc(100vh + 280px);
+margin-bottom:110px;
+background-image:url("../images/haikeiao2.jpg");
+background-repeat:no-repeat;
+background-size: 100% auto;
 }
 
 main {
 }
 
 #works {
-	padding: 84px;
-	
 }
 
 .sns {
@@ -59,9 +54,13 @@ margin-top: -52px;
 
 .works {
 max-width: 1000px;
-margin: 0 auto 30px;/*上 左右 下*/
+margin: 0 auto 110px;/*上 左右 下*/
+padding:0 30px;
+}
 
-
+.item img {
+width: 100%;
+height: auto;
 }
 
 .grid {
@@ -84,7 +83,6 @@ opacity: 1;/*不透明度*/
 .prof-box {
 display: flex;
 justify-content: space-around;
-
 }
 
 .name {
@@ -224,8 +222,7 @@ button[type="submit"]:hover {
   width: 650px;
   height: 400px;
   overflow: hidden;
-  position:re
-
+		position: relative;
 }
 
 .middle{
@@ -290,47 +287,111 @@ input[name="r"]{
 }
 
 .notice {
-	margin-bottom:30px
+	margin-bottom:110px
+}
+
+.notice h2 {
+margin-bottom: 30px;
 }
 
 /*for tablet 960px*/
+@media screen and (max-width:960px){
+.index {
+width: 100%;
+background-image:url("../images/haikeitablet2.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
+height: 480px;
+margin-bottom: 80px;
+}
+
+.navbar-collapse {
+		background-color:rgba(52,52,52,0.6);
+		padding: 0 0.5rem;
+}
+div#works {
+margin-bottom: 80px;
+}
+
+.works {
+width: 100%;
+}
+
+.grid {
+display: grid;
+gap:20px;
+grid-template-columns: repeat(3, minmax(200px, 1fr));
+margin-top: 3%;
+margin-bottom: 0px;
+}
+
+.item a {
+opacity:1;
+}
+
+footer {
+background-size: 100% auto;
+padding:168px 0 10px;
+height: 198px;
+text-align: center;
+}
+small {
+display: inline;
+line-height: 20px;
+padding: 0;
+}
+
+#pagetop {
+	position: fixed;/*位置固定*/
+	bottom:20px;/*下からの位置*/
+	right: 30px;/*右からの位置*/
+	width: 80px;/*ボタンの幅*/
+	height: 80px;/*ボタンの高さ*/
+	z-index: 100;
+}
+
+#pagetop img {
+width: 100%;
+height: auto;
+}
+}
 
 /*for smarthphone*/
-
-
-@media screen and (max-width:559px){
+@media screen and (max-width:560px){
 .wrapper{
-background-image:url(../images/haikeismartphone.png);
-background-position: center;
-background-size: cover;
 width: 100%;
 height:auto;
 }
-.index{
-margin-bottom:100px;
-height:100vh;
+
+.navbar {
+padding: 0;
 }
-.titlelogo{text-align: left;
-		
-	}
-.topbutton{width:auto; height:auto; max-width:50px; max-height: 50px; }	
+
+.index{
+background-image:url(../images/haikeismartphone2.jpg);
+height:240px;
+margin-bottom: 40px;
+}
+
+.titlelogo{
+	background-positon:left;
+}
 	
 .navigation{
   position: relative;
   transform: translateX(-30%);
-	display: flex;}
+	display: flex;
+	}
 	
-.slides{width:auto; height:auto;}	
-	
-	
-	
+.slidershow {
+    width: 96%;
+    height: auto;
+			}
 header{
 display:block;
 }
 header h1{
 font-size: 1.4cm;
-text-align: center;
-margin:0 auto;
 }
 .global_nav ul{
 margin-top: 0;
@@ -347,6 +408,7 @@ height:auto;
 }
 .prof-box{
 flex-wrap: wrap;
+margin-bottom: 40px;
 }
 .prof-box p{
 text-align: center;
@@ -365,11 +427,17 @@ grid-template-columns: repeat(1,1fr);
 }
 	
 footer{
-background-size: cover;
-background-position: bottom center;
-height:200px}
+padding:68px 0 10px;
+height: 98px;
+text-align: center;
 }
 
-small{
-	padding-top: 179px;
+#pagetop {
+	position: fixed;/*位置固定*/
+	bottom:10px;/*下からの位置*/
+	right: 10px;/*右からの位置*/
+	width: 50px;/*ボタンの幅*/
+	height: 50px;/*ボタンの高さ*/
+	z-index: 100;
+}
 }
